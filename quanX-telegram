@@ -1,4 +1,4 @@
-
+USER-AGENT,Telegram*,proxy
 IP-CIDR,109.239.140.0/24,proxy
 IP-CIDR,149.154.160.0/20,proxy
 IP-CIDR,149.154.164.0/22,proxy
@@ -9,7 +9,6 @@ IP-CIDR,91.108.56.0/22,proxy
 IP-CIDR,91.108.8.0/22,proxy
 IP-CIDR,149.154.172.0/22,proxy
 IP-CIDR,149.154.168.0/22,proxy
-USER-AGENT,Telegram*,proxy
 DOMAIN-SUFFIX,tdesktop.com,proxy
 DOMAIN-SUFFIX,telegra.ph,proxy
 DOMAIN-SUFFIX,telegram.me,proxy
