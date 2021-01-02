@@ -1,0 +1,5 @@
+HOST-SUFFIX,fast.com,proxy
+HOST-SUFFIX,ooklaserver.net,proxy
+HOST-SUFFIX,speed.cloudflare.com,proxy
+HOST-KEYWORD,speedtest,proxy
+USER-AGENT,SpeedTest*,proxy
