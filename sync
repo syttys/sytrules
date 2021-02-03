@@ -1,0 +1,4 @@
+ip-cidr, 23.111.157.86/32, direct
+ip-cidr, 66.165.233.194/32, direct
+host, api.amplitude.com, direct
+host, i-2000.b-2-7-2.sync.bench.resilio.com, direct
