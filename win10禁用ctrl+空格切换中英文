@@ -1,0 +1,18 @@
+参考：https://superuser.com/questions/327479/ctrl-space-always-toggles-chinese-ime-windows-7
+https://www.zhihu.com/question/22288432/answer/26796949
+转到Start> 输入regedit并启动它
+导航 HKEY_CURRENT_USER/Control Panel/Input Method/Hot Keys
+选择名为的键：
+00000070对于Chinese (Traditional) IME - Ime/NonIme Toggle热键
+00000010对于Chinese (Simplified) IME - Ime/NonIme Toggle热键
+在右侧子窗口中，有三个子项。
+键修饰符指定Alt/ Ctrl/ Shift/etc 并设置为Ctrl( 02c00000)。
+虚拟键指定完成键并设置为Space( 20000000)。
+将第一个字节Key Modifiers从更改02为00
+将第一个字节Virtual Key从更改20为FF
+进入HKEY_USERS\.DEFAULT\Control Panel\Input Method\Hot Keys重复上述操作。
+重新启动。
+注意：
+HKEY_CURRENT_USER/Control Panel/Input Method/Hot Keys
+HKEY_USERS\.DEFAULT\Control Panel\Input Method\Hot Keys
+两个地方的值都要修改，WIN10 亲测可用（最好重启一下， chrome 之类的似乎会缓存什么东西……）两个地方的值都要修改，WIN10 亲测可用（最好重启一下， chrome 之类的似乎会缓存什么东西……）
